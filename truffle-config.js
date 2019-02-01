@@ -6,7 +6,7 @@
  * truffleframework.com/docs/advanced/configuration
  */
 
-const HDWallet = require('truffle-hdwallet-provider');
+const HDWalletProvider = require('truffle-hdwallet-provider');
 const infuraKey = "aea718a531d949c59204219998db790d";
 
 const fs = require('fs');
