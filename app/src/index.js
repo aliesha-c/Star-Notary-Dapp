@@ -1,3 +1,5 @@
+/* jshint esversion: 6 */
+
 import Web3 from "web3";
 import starNotaryArtifact from "../../build/contracts/StarNotary.json";
 
@@ -40,8 +42,15 @@ const App = {
   },
 
   // Implement Task 4 Modify the front end of the DAPP
-  lookUp: async function (){
-    
+  lookUp: async function() {
+    const { lookUptokenIdToStarInfo } = this.meta.methods;
+    const id = document.getElementById("lookid").value;
+    const name = await lookUptokenIdToStarInfo(id).call();
+    if (name == "") {
+      App.setStatus(`Star ${id} has not been claimed`);
+    } else {
+      App.setStatus(`Star name is "${name}"`);
+    }
   }
 
 };
