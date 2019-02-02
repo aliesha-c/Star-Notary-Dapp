@@ -1,0 +1,22 @@
+{
+  "name": "project_5_star_notary",
+  "version": "1.0.0",
+  "description": "This is the 5th project for the Blockchain Developer Nanodegree. The project is built upon the boiler plate code provided for a Star Notary service utilising the ERC-721 standard. It is deployed on the Rinkeby Ethereum Testnet with the following details:",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:aliesha.ellis/blockchain-learning/blockchain-developer-nanodegree/star-notary-dapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "openzeppelin-solidity": "^2.1.2",
+    "truffle-hdwallet-provider": "^1.0.3"
+  }
+}
