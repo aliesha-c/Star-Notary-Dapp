@@ -55,28 +55,28 @@ To use the front end, you will need to choose the correct network in metamax and
 
 To choose the correct network in metamask, click on the network at the top of the window to open a drop down box as illustrated below:
 
-![Image of metamask network dropdown menu](screenshots\metamask_network_select.png)
+![Image of metamask network dropdown menu](./screenshots/metamask_network_select.png)
 
 Click on the `Custom RPC` option and scroll down to the **New Network** option and enter the truffle development network (the address for this network can be seen in the truffle screenshot in the next section) before hitting save:
 
-![Image of metamask - adding a new network](screenshots\metamask_add_new_networkt.png)
+![Image of metamask - adding a new network](./screenshots/metamask_add_new_networkt.png)
 
 You can now choose this network from the network drop down box. Choose this network now so you can work with the truffle develop environment.
 
 ##### Importing an account into metamask from truffle
 Below is an example of what you will see when you first enter the truffle develop mode (`truffle develop`).
 
-![Image of terminal output after entering truffle develop](screenshots\truffle_develop.png)
+![Image of terminal output after entering truffle develop](./screenshots/truffle_develop.png)
 
 Copy any of the private keys from the output on your terminal screen.
 
 To import into metamask, click on the account icon at the top right of metamask and select **Import Account**:
 
-![Image of metamask import account option](screenshots\metamask_import_new_account.png)
+![Image of metamask import account option](./screenshots/metamask_import_new_account.png)
 
 Paste your private key into the box in click **IMPORT**:
 
-![Image of metamask new account import page](screenshots\metamask_import_from_account_key.png)
+![Image of metamask new account import page](./screenshots/metamask_import_from_account_key.png)
 
 You can now use the front end of the DAPP with the account selected in metamask (and the correct local network!). If you want to change accounts (to claim a star under a different account), you will need to reload the DAPP web page once you have selected the correct account in metamask.
 
